@@ -7,36 +7,42 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <header>ENGLISH POEM GENERATOR</header>
+    <header><h1>ENGLISH POEM GENERATOR</h1></header>
     <main>
-      <form>
-        <input
-          type="text"
-          required
-          autofocus
-          placeholder="enter theme of the english poem"
-          autocomplete="off"
-        /><input type="submit" />
-      </form>
-      <div>
+      <div class="form-container">
+        <form>
+          <input
+            class="form-input"
+            type="text"
+            required
+            autofocus
+            placeholder="Poem theme Ex:Poem about mum"
+            autocomplete="off"
+          /><input type="submit" class="submit-button" />
+        </form>
+      </div>
+      <div class="poem-display-position">
         This is a captivating poem <br />
         This is really captivating
       </div>
+
       <script src="src/index.js"></script>
     </main>
   </body>
   <footer>
-    This page is open-sourced on
-    <a
-      href="https://github.com/raspberries-codes/AI-English-poem-generator"
-      target="_blank"
-      >github</a
-    >
-    coded by
-    <a href="https://github.com/lonpsy" target="_blank">Festus-Ilesanmi</a>
-    and hosted on
-    <a href="https://ai-english-poem-generatorx.netlify.app/" target="_blank"
-      >Netlify</a
-    >
+    <div class="footer">
+      This page is open-sourced on
+      <a
+        href="https://github.com/raspberries-codes/AI-English-poem-generator"
+        target="_blank"
+        >github</a
+      >
+      coded by
+      <a href="https://github.com/lonpsy" target="_blank">Festus-Ilesanmi</a>
+      and hosted on
+      <a href="https://ai-english-poem-generatorx.netlify.app/" target="_blank"
+        >Netlify</a
+      >
+    </div>
   </footer>
 </html>
