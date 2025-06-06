@@ -6,6 +6,7 @@
     <title>AI English poem generator</title>
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
   </head>
   <body>
     <header><h1>ENGLISH POEM GENERATOR</h1></header>
@@ -13,11 +14,12 @@
       <div class="form-container">
         <form id="form-element">
           <input
+            id="form-input"
             class="form-input"
             type="text"
             required
             autofocus
-            placeholder="Poem theme Ex:Poem about mum"
+            placeholder="Poem theme Ex: My mum in English"
             autocomplete="off"
           /><input type="submit" class="submit-button" />
         </form>
