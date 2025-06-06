@@ -14,7 +14,9 @@ h1 {
 a {
   color: rgb(122, 13, 122, 0.8);
 }
-
+.poem-display-position footer {
+  color: rgba(199, 123, 199, 0.8);
+}
 .form-container {
   margin: 120px auto;
   margin-bottom: 30px;
@@ -54,6 +56,22 @@ a {
   border-radius: 10px;
   box-shadow: 12px 12px 2px 1px rgba(134, 87, 122, 0.1);
   background-color: 12px 12px 2px 1px rgba(134, 87, 122, 0.1);
+}
+.hidden {
+  display: none;
+}
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
 .footer {
   padding: 20px;
