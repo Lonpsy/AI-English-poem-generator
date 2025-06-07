@@ -17,7 +17,7 @@ function generatepoem(event) {
   let poemElement = document.querySelector("#poem-display-position");
   poemElement.classList.remove("hidden");
 
-  poemElement.innerHTML = `<div class="generating">⏳ Generating a French poem about ${topic.value}</div>`;
+  poemElement.innerHTML = `<div class="generating">⏳ Generating a poem about ${topic.value}</div>`;
 
   axios.get(api_url).then(displayPoem);
 }
