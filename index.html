@@ -4,48 +4,65 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI English poem generator</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
   </head>
   <body>
-    <header><h1>ENGLISH POEM GENERATOR</h1></header>
-    <main>
-      <div class="form-container">
-        <form id="form-element">
-          <input
-            id="form-input"
-            class="form-input"
-            type="text"
-            required
-            autofocus
-            placeholder="Poem theme Ex: My mum in English"
-            autocomplete="off"
-          /><input type="submit" class="submit-button" />
-        </form>
-      </div>
-      <div
-        id="poem-display-position"
-        class="poem-display-position hidden"
-      ></div>
+    <div>
+      <header><h1>ENGLISH POEM GENERATOR</h1></header>
+      <main>
+        <div class="form-container">
+          <form id="form-element">
+            <input
+              id="form-input"
+              class="form-input"
+              type="text"
+              required
+              autofocus
+              placeholder="Poem theme Ex: My mum in English"
+              autocomplete="off"
+            /><input type="submit" class="submit-button" />
+          </form>
+        </div>
+        <div
+          id="poem-display-position"
+          class="poem-display-position hidden"
+        ></div>
 
-      <script src="src/index.js"></script>
-    </main>
-  </body>
-  <footer>
-    <div class="footer">
-      This page is open-sourced on
-      <a
-        href="https://github.com/raspberries-codes/AI-English-poem-generator"
-        target="_blank"
-        >github</a
-      >
-      coded by
-      <a href="https://github.com/lonpsy" target="_blank">Festus-Ilesanmi</a>
-      and hosted on
-      <a href="https://ai-english-poem-generatorx.netlify.app/" target="_blank"
-        >Netlify</a
-      >
+        <script src="src/index.js"></script>
+      </main>
     </div>
-  </footer>
+  </body>
+  <div>
+    <footer>
+      <div class="footer">
+        This page is open-sourced on
+        <a
+          href="https://github.com/raspberries-codes/AI-English-poem-generator"
+          target="_blank"
+          >github</a
+        >
+        coded by
+        <a href="https://github.com/lonpsy" target="_blank">Festus-Ilesanmi</a>
+        and hosted on
+        <a
+          href="https://ai-english-poem-generatorx.netlify.app/"
+          target="_blank"
+          >Netlify</a
+        >
+      </div>
+    </footer>
+  </div>
 </html>
